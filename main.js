@@ -11,8 +11,6 @@ $(document).ready(function() {
 			 });
 	
 	
-});
-$(document).ready(function() {
     
 	$("#sadrzaj2").mouseover(function(){
 	    $(".desni").animate({
@@ -24,9 +22,7 @@ $(document).ready(function() {
 			 });
 	
 	
-});
 
-$(document).ready(function() {
     
 	$("#sadrzaj3").mouseover(function(){
 	    $(".levi1").animate({
@@ -39,7 +35,7 @@ $(document).ready(function() {
 			 });
 	
 	
-});
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -56,3 +52,4 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+});
