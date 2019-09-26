@@ -9,32 +9,26 @@ $(document).ready(function() {
 			
 			},2000);
 			 });
+			 $("#sadrzaj2").mouseover(function(){
+				$(".desni").animate({
+				left: "0px",
+				marginBottom:"0px",
+				marginTop:"0px"
+				
+				},2000);
+				 });
+				 $("#sadrzaj3").mouseover(function(){
+					$(".levi1").animate({
+					
+					left:'0px',
+					marginBottom:"0px",
+					marginTop:"0px"
+					
+					},2000);
+					 });
+				
 	
-	
-    
-	$("#sadrzaj2").mouseover(function(){
-	    $(".desni").animate({
-			left: "0px",
-			marginBottom:"0px",
-			marginTop:"0px"
-			
-			},2000);
-			 });
-	
-	
-
-    
-	$("#sadrzaj3").mouseover(function(){
-	    $(".levi1").animate({
-			
-			left:'0px',
-			marginBottom:"0px",
-			marginTop:"0px"
-			
-			},2000);
-			 });
-	
-	
+});
 
 window.onscroll = function() {scrollFunction()};
 
@@ -51,5 +45,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-});

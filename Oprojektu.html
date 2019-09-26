@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="keywords" content="Phaser, Canvas, WebGL, Igrice, Web tehnologije, Framework">
   <title>O projektu</title>
   <link rel="shortcut icon" href="img/lean.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +29,7 @@
 
 <body>
   <div class="container">
-    <div class="row">
+    <div  id="navbar" class="row">
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
 
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
@@ -186,7 +187,7 @@
             <h4 class="naslov3">Lokacija našeg fakulteta</h4>
             <script
               src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyA6k4bWNf8KOH6fUz6YElQ_DIUDQNnUQV0'></script>
-            <div class="mapa" style='overflow:hidden;height:400px;width:520px;'>
+            <div class="mapa" style='overflow:hidden;height:100%;width:100%'>
               <div id='gmap_canvas' style='height:400px;width:520px;'></div>
             </div>
             <a href='http://mapseinbindung.com/'>google maps integration</a>
@@ -196,13 +197,11 @@
             <script
               type='text/javascript'>function init_map() { var myOptions = { zoom: 12, center: new google.maps.LatLng(43.8959117, 20.345075800000018), mapTypeId: google.maps.MapTypeId.ROADMAP }; map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions); marker = new google.maps.Marker({ map: map, position: new google.maps.LatLng(43.8959117, 20.345075800000018) }); infowindow = new google.maps.InfoWindow({ content: '<strong>Fakultet tehnickih nauka u Cacku</strong><br>Svetog Save 65, Cacak<br>32000 Cacak<br>' }); google.maps.event.addListener(marker, 'click', function () { infowindow.open(map, marker); }); infowindow.open(map, marker); } google.maps.event.addDomListener(window, 'load', init_map);</script>
           </div>
-
         </div>
       </div>
     </div>
   </div>
   <button onclick="topFunction()" id="myBtn" title="Go to top">Na vrh</button>
-
   <footer>
     <div class="container-fluid">
       <div class="row">
